@@ -1,0 +1,102 @@
+
+body {
+    background-color: #f0f4f8;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+}
+
+h1 {
+    color: darkblue;
+    font-size: 35px;
+}
+
+h2 {
+    color: green;
+}
+
+p {
+    color: #333333;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+nav {
+    background-color: #172554;
+    padding: 20px;
+    text-align: center;
+}
+
+nav h2 {
+    color: white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+/* Improve Skills Design */
+
+#skills {
+    padding: 40px 20px;
+}
+
+.skill-box {
+    display: inline-block;
+    background-color: #dbeafe;
+    color: #172554;
+    padding: 15px 30px;
+    margin: 10px;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+/* Improve Projects Design */
+
+#projects {
+    padding: 40px 20px;
+}
+
+.project-box {
+    display: inline-block;
+    background-color: white;
+    border: 2px solid #dbeafe;
+    padding: 20px;
+    margin: 12px;
+    width: 220px;
+    border-radius: 12px;
+    box-shadow: 0 3px 8px #cccccc;
+}
+
+.project-box:hover {
+    transform: translateY(-5px);
+}
+
+/* Resume Button */
+
+#resume {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.resume-btn {
+    display: inline-block;
+    background-color: #2455a4;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.resume-btn:hover {
+    background-color: green;
+}
